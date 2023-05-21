@@ -1,7 +1,9 @@
 # Road map
 ## Content
-  - [Arrays and Hashing](#1-array-and-hashing)
-  - [Two Pointers](#2-two-pointers)
+- [Road map](#road-map)
+  - [Content](#content)
+  - [1. Array and Hashing](#1-array-and-hashing)
+  - [2. Two Pointers](#2-two-pointers)
 
 ## 1. Array and Hashing
 
@@ -32,6 +34,7 @@ Questions:
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |      Easy      	| TYPE 1|
 | [Move Zeros](https://leetcode.com/problems/move-zeroes/) |      Easy      	|TYPE 2|
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |      Easy      	|TYPE 2|
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| Easy | Type 2|
 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |      Medium    	|TYPE 1|
 | [3Sum](https://leetcode.com/problems/3sum/) |      Medium     	|TYPE 1|
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |      Medium     	|TYPE 1|
