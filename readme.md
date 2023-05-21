@@ -1,5 +1,6 @@
 # Road map
 ## Content
+  - [Arrays and Hashing](#1-array-and-hashing)
   - [Two Pointers](#2-two-pointers)
 
 ## 1. Array and Hashing
