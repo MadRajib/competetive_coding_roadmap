@@ -32,6 +32,7 @@ Questions:
 | Problems 	| Difficulty 	| Type |
 |----------	|------------	| -----|
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |      Easy      	| TYPE 1|
+| [Reverse String](https://leetcode.com/problems/reverse-string/) |      Easy      	| TYPE 1|
 | [Move Zeros](https://leetcode.com/problems/move-zeroes/) |      Easy      	|TYPE 2|
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |      Easy      	|TYPE 2|
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| Easy | Type 2|
