@@ -1,7 +1,5 @@
 # Road map
-## Content
 - [Road map](#road-map)
-  - [Content](#content)
   - [1. Array and Hashing](#1-array-and-hashing)
   - [2. Two Pointers](#2-two-pointers)
 
