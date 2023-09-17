@@ -39,3 +39,7 @@ Questions:
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |      Medium     	|TYPE 1|
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Medium |TYPE 2|
 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| Hard|TYPE 1|
+
+
+1. In sliding window problems if asked to find k numbers in any sequence __try out sorting the array first__.
+2. 
