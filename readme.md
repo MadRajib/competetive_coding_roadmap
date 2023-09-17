@@ -42,4 +42,4 @@ Questions:
 
 
 1. In sliding window problems if asked to find k numbers in any sequence __try out sorting the array first__.
-2. 
+2. In Sliding window problems if k is small value i.e < 4 use manual comparison rather than using complex data structures. 
