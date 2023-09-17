@@ -42,4 +42,12 @@ Questions:
 
 
 1. In sliding window problems if asked to find k numbers in any sequence __try out sorting the array first__.
-2. In Sliding window problems if k is small value i.e < 4 use manual comparison rather than using complex data structures. 
+2. In Sliding window problems if k is small value i.e < 4 use manual comparison rather than using complex data structures.
+3. IN SLIDING WIN problems, if the set data is involved
+```cpp
+  while(st.find(s[i]) != st.end()){
+    st.erase(s[l]);
+    l++;
+  }
+  st.insert(s[i]);
+   ```
