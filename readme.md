@@ -57,7 +57,8 @@ Questions:
   
 | Problems 	| Difficulty 	| Type |
 |----------	|------------	| -----|
-| [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1) |      Medium   	| |
+| [Maximum of all subarrays of size k same as Sliding Window Maximum](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1) |      Medium   	| |
+
 | [First negative integer in every window of size k ](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) |      Easy     	| |
 | [Longest Sub-Array with Sum K](https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) |      Medium   	| |
 | [Longest K unique characters substring](https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) |      Medium   	| |
