@@ -63,3 +63,4 @@ Questions:
 | [Longest K unique characters substring](https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) |      Medium   	| |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/abcabcabc/) |      Medium   	| |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) |      Medium   	| |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/) |      Medium   	| |
