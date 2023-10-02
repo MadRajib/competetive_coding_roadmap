@@ -2,7 +2,8 @@
 - [Road map](#road-map)
   - [1. Array and Hashing](#1-array-and-hashing)
   - [2. Two Pointers](#2-two-pointers)
-  - [3. Sliding Window](#3-sliding-window)
+  - [3. Binary Search](#3-binary-search)
+  - [4. Sliding Window](#4-sliding-window)
 
 ## 1. Array and Hashing
 
@@ -41,7 +42,15 @@ Questions:
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Medium |TYPE 2|
 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| Hard|TYPE 1|
 
-## 3. Sliding Window
+
+## 3. Binary Search
+Questions:
+  
+| Problems 	| Difficulty 	| Type |
+|----------	|------------	| -----|
+| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |      Easy      	| TYPE 1|
+
+## 4. Sliding Window
 
 1. In sliding window problems if asked to find k numbers in any sequence __try out sorting the array first__.
 2. In Sliding window problems if k is small value i.e < 4 use manual comparison rather than using complex data structures.
