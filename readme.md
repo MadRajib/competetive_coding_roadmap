@@ -3,6 +3,9 @@
   - [1. Array and Hashing](#1-array-and-hashing)
   - [2. Two Pointers](#2-two-pointers)
   - [3. Binary Search](#3-binary-search)
+      - [1. Find First and Last Position of Element in Sorted Array ( Medium )](#1-find-first-and-last-position-of-element-in-sorted-array--medium-)
+      - [2. Find Minimum in Rotated Sorted Array ( Medium )](#2-find-minimum-in-rotated-sorted-array--medium-)
+      - [3. Search in Rotated Sorted Array ( Medium )](#3-search-in-rotated-sorted-array--medium-)
   - [4. Sliding Window](#4-sliding-window)
 
 ## 1. Array and Hashing
@@ -45,11 +48,86 @@ Questions:
 
 ## 3. Binary Search
 Questions:
-  
-| Problems 	| Difficulty 	| Type |
-|----------	|------------	| -----|
-| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |      Easy      	| TYPE 1|
-| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) |      Easy      	| TYPE 1|
+
+#### 1. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)<span style="color:red"> ( Medium )</span>
+<details>
+  <summary>Show code</summary>
+
+  ```cpp
+   vector<int> searchRange(vector<int>& nums, int target) {
+        return {bs(nums, target, 1), bs(nums, target, 2)};
+    }
+    
+    int bs(vector<int>& nums, int target, int mode){
+        int l = 0, h = nums.size() -1, m, res = -1;
+        
+        while( l <= h){
+            m = l + (h-l)/2;
+            if(target == nums[m]) {
+                res = m;
+                if(mode == 1) h = m-1;
+                else if(mode == 2) l = m+1;
+            }else if(target < nums[m]) h = m-1;
+            else l = m +1;
+        }
+        
+        return res;
+    }
+   ```
+</details>
+
+#### 2. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)<span style="color:red"> ( Medium )</span>
+<details>
+  <summary>Show code</summary>
+
+```cpp
+    int findMin(vector<int>& nums) {
+        int l = 0, h = nums.size()-1;
+        while(l<h){
+            int m = l + (h-l)/2;
+            if(nums[m] <= nums[h])
+              h = m;
+            else
+            l = m +1;
+        }
+        return nums[l];
+        
+    }
+```
+</details>
+
+
+#### 3. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<span style="color:red"> ( Medium )</span>
+
+<details>
+  <summary>Show code</summary>
+
+```cpp
+    int search(vector<int>& A, int target) {
+        int l = 0, h = A.size()-1;
+        
+        while(l<=h){
+            int m = l + (h-l)/2;
+            if(A[m] == target) return m;
+            
+            //Bottom half is sorted
+            if(A[l]<=A[m]){
+                if(A[l]<=target && target <=A[m] )
+                     h = m-1;
+                else l = m+1;
+                
+            //upper half is sorted
+            }else{
+                if(A[m]<=target && target <=A[h] )
+                     l = m+1;
+                else h = m-1;
+                
+            }
+        }
+        return -1;
+    }
+```
+</details>
 
 ## 4. Sliding Window
 
