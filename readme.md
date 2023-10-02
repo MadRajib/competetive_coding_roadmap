@@ -49,6 +49,7 @@ Questions:
 | Problems 	| Difficulty 	| Type |
 |----------	|------------	| -----|
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |      Easy      	| TYPE 1|
+| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) |      Easy      	| TYPE 1|
 
 ## 4. Sliding Window
 
